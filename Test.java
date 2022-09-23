@@ -1,6 +1,6 @@
 public class Test {
     public static void main(String[] avgs) {
         System.out.println(avgs[0]);
-        System.out.println(avgs[1]);
+        System.out.println("Second Version!");
     }
 }
