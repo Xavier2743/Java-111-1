@@ -1,11 +1,20 @@
 public class Test {
     public static void main(String[] avgs) {
-        System.out.println(avgs[0]);
-        System.out.println("Second Version!");
-        printStr("Vic");
+        int num = 1;
+        printStr("" + num);
+        num = 2;
+        printStr("" + num);
+        num = num + 1;
+        printStr("" + num);
+        num += 1;
+        printStr("" + num);
+        ++ num;
+        printStr("" + num);
+        num ++;
+        printStr("" + num);
     }
 
     public static void printStr(String str) {
-        System.out.println("My Name is " + str + ".");
+        System.out.println(str);
     }
 }
