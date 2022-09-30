@@ -8,14 +8,11 @@ public class Test2 {
         System.out.printf("Enter first integer: ");
         num1 = input.nextInt();
 
-        if (num1 >= 80) {
-            System.out.println("Excellent!");
-        }
-        else if (num1 >= 60) {
-            System.out.println("Pass!");
+        if (num1 >= 60 & num1 <= 70) {
+                System.out.println("60-70");
         }
         else {
-            System.out.println("Fail!");
+            System.out.println("<60");
         }
     }
 }
