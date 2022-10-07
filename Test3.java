@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import java.util.Scanner;
-
 public class Test3 {
     public static void main(String[] avgs) {
         int num;
@@ -28,7 +26,7 @@ public class Test3 {
             }
         }
         else {
-            System.out.printf("Input error.");
+            System.out.println("Input error.");
         }
     }
 }
