@@ -1,0 +1,32 @@
+public class Test0602 {
+    public static void main(String[] avgs) {
+        int row = 0;
+        int blank = 4;
+        int star = 0;
+        int col;
+        while (row  < 9) {
+            col = 0;
+            while (col < blank) {
+                System.out.print(" ");
+                col += 1;
+            }
+            
+            col = 0;
+            while (col <= star) {
+                System.out.print("*");
+                col += 1;
+            }
+            System.out.println();
+
+            if (row < 4) {
+                blank -= 1;
+                star += 2;
+            }
+            else {
+                blank += 1;
+                star -= 2;
+            }
+            row += 1;
+        }
+    }
+}
