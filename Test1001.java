@@ -4,11 +4,15 @@ public class Test1001 {
         int k = 7;
 
         System.out.printf("%d%n", k);
-        a = add(k, 4);
+        Test1001_1 test10 = new Test1001_1();
+        a = test10.add(k, 4);
         System.out.printf("%d%n", a);
     }
 
-    public static int add(int x, int y) {
+}
+
+class Test1001_1 {
+    public int add(int x, int y) {
         int t = x + y;
         return t;
     }
