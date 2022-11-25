@@ -1,12 +1,13 @@
 import java.util.Scanner;
 
-public class Test5 {
+public class Test0403 {
     public static void main(String[] avgs) {
         int grade;
 
         Scanner input = new Scanner(System.in);
         System.out.printf("Enter your score: ");
         grade = input.nextInt();
+        input.close();
 
         if (grade >= 0 && grade <= 100) {
             switch (grade / 10) {

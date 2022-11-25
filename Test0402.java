@@ -1,12 +1,13 @@
 import java.util.Scanner;
 
-public class Test4 {
+public class Test0402 {
     public static void main(String[] avgs) {
         int grade;
 
         Scanner input = new Scanner(System.in);
         System.out.printf("Enter your score: ");
         grade = input.nextInt();
+        input.close();
 
         switch (grade / 10) {
             case 9:

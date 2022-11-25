@@ -1,12 +1,13 @@
 import java.util.Scanner;
 
-public class Test3 {
+public class Test0401 {
     public static void main(String[] avgs) {
         int num;
 
         Scanner input = new Scanner(System.in);
         System.out.printf("Enter your score: ");
         num = input.nextInt();
+        input.close();
 
         if (num >= 0 && num <= 100) {
             if (num >= 90) {

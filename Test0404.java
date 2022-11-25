@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class Test6 {
+public class Test0404 {
     public static void main(String[] avgs) {
         int grade = 0;
         String space = "";

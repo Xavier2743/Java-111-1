@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Test {
+public class Test0301 {
     public static void main(String[] avgs) {
         int num1;
         int num2;
@@ -13,6 +13,7 @@ public class Test {
         num2 = input.nextInt();
         sum = num1 + num2;
         System.out.println("The sum is " + sum);
+        input.close();
     }
 
     public static void printStr(String str) {
